@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blubloom Interiors Website
 
-## Getting Started
+A premium interior design company website built with Next.js 14.
 
-First, run the development server:
+## 🚀 Getting Started
+
+### Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## 📦 Deploy on Vercel
 
-To learn more about Next.js, take a look at the following resources:
+The easiest way to deploy this Next.js app is to use [Vercel](https://vercel.com):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push this repository to GitHub
+2. Import the project in Vercel
+3. Vercel will automatically detect Next.js and configure the build settings
+4. Click Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-## Deploy on Vercel
+## 🎨 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Modern Design**: Premium typography with Playfair Display, Outfit, and Inter fonts
+- **Responsive**: Fully mobile-responsive design
+- **Animations**: Smooth fade-in and hover animations
+- **SEO Optimized**: Proper meta tags and semantic HTML
+- **Fast**: Optimized images and static generation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+```
+├── app/                  # Next.js App Router pages
+│   ├── page.tsx         # Home page
+│   ├── projects/        # Projects page
+│   ├── disciplines/     # Disciplines page
+│   ├── digital-future/  # Digital Future page
+│   ├── about/           # About page
+│   └── contact/         # Contact page
+├── components/          # Reusable components
+│   ├── Header.tsx       # Navigation header
+│   ├── Footer.tsx       # Site footer
+│   └── ProjectCard.tsx  # Project card component
+└── public/images/       # Static images
+```
+
+## 🛠 Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Vanilla CSS with CSS Custom Properties
