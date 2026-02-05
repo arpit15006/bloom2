@@ -19,8 +19,7 @@ export default function Footer() {
                     {/* Brand Column */}
                     <div className="footer-brand">
                         <div className="footer-logo">
-                            <img src="/logo-icon.svg" alt="Blubloom" className="footer-logo-svg" />
-                            <span className="footer-logo-text">Blubloom Interiors</span>
+                            <img src="/logo-full-light.svg" alt="Blubloom Interior" className="footer-logo-full" />
                         </div>
                         <p className="footer-tagline">
                             Crafting exceptional spaces through innovative design and architecture.

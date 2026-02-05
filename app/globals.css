@@ -627,6 +627,12 @@ a:hover {
   object-fit: contain;
 }
 
+.logo-full {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
 .logo-icon {
   width: 40px;
   height: 40px;
@@ -1259,6 +1265,12 @@ a:hover {
 .footer-logo-svg {
   width: 48px;
   height: 48px;
+  object-fit: contain;
+}
+
+.footer-logo-full {
+  height: 55px;
+  width: auto;
   object-fit: contain;
 }
 
