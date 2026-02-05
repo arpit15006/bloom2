@@ -19,7 +19,7 @@ export default function Footer() {
                     {/* Brand Column */}
                     <div className="footer-brand">
                         <div className="footer-logo">
-                            <span className="footer-logo-icon">B</span>
+                            <img src="/logo-icon.svg" alt="Blubloom" className="footer-logo-svg" />
                             <span className="footer-logo-text">Blubloom Interiors</span>
                         </div>
                         <p className="footer-tagline">

@@ -31,7 +31,7 @@ export default function Header() {
                 <div className="container">
                     <div className="header-inner">
                         <Link href="/" className="logo">
-                            <span className="logo-icon">B</span>
+                            <img src="/logo-icon.svg" alt="Blubloom" className="logo-svg" />
                             <span>Blubloom</span>
                         </Link>
 

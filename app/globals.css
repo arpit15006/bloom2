@@ -621,6 +621,12 @@ a:hover {
   letter-spacing: var(--tracking-wide);
 }
 
+.logo-svg {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
 .logo-icon {
   width: 40px;
   height: 40px;
@@ -1248,6 +1254,12 @@ a:hover {
   align-items: center;
   gap: var(--space-3);
   margin-bottom: var(--space-6);
+}
+
+.footer-logo-svg {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
 .footer-logo-icon {
